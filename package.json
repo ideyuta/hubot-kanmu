@@ -1,0 +1,28 @@
+{
+  "name": "hubot-kanmu",
+  "version": "0.0.1",
+  "description": "Hubot-scripts returns Kanmu image",
+  "main": "src/index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideyuta/hubot-kanmu.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "kanmu",
+    "image"
+  ],
+  "author": "ideyuta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ideyuta/hubot-kanmu/issues"
+  },
+  "homepage": "https://github.com/ideyuta/hubot-kanmu",
+  "devDependencies": {
+    "hubot": "^2.8.0"
+  }
+}
