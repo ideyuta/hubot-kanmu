@@ -1,6 +1,6 @@
 {
   "name": "hubot-kanmu",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Hubot-scripts returns Kanmu image",
   "main": "src/index.coffee",
   "scripts": {
