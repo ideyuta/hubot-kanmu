@@ -19,6 +19,10 @@ data = require '../data/data.json'
 
 module.exports = (robot) ->
 
+  ##
+  # @desc
+  # 名前に応じてそいつの画像を返す
+  ##
   robot.respond /(achiku|8maki|moqada|sakai|ide|takeya)( kc)?$/i, (msg) ->
     name =  msg.match[1]
     images = if msg.match[2] then data[name].kc else data[name].normal
@@ -26,3 +30,10 @@ module.exports = (robot) ->
       msg.send "@#{name} #{msg.random images}"
     else
       msg.reply "画像ないから追加しろ"
+
+  ##
+  # @desc
+  # ほう
+  ##
+  robot.hear /^ほう$/i, (msg) ->
+    msg.reply "ほう"
