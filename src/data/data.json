@@ -35,13 +35,17 @@
       "http://i.imgur.com/hytAEzn.png",
       "http://i.imgur.com/QBBMM61.png",
       "http://i.imgur.com/z9u9GWF.jpg",
-      "http://i.imgur.com/mcHlAfb.jpg"
+      "http://i.imgur.com/mcHlAfb.jpg",
+      "http://i.imgur.com/xWu22Wu.jpg",
+      "http://i.imgur.com/LzbjsX9.jpg",
+      "http://i.imgur.com/8UsIcGG.jpg",
+      "http://i.imgur.com/8sVH5BD.jpg"
     ],
     "fire": [
       "http://i.imgur.com/4mzT1XK.gif"
     ]
   },
-  "js": {
+  "sakai": {
     "normal": [
       "http://i.imgur.com/BWSh289.png"
     ],
@@ -64,7 +68,8 @@
   "moqada": {
     "normal": [
       "http://i.imgur.com/x7zojdt.jpg",
-      "http://i.imgur.com/IpSPLdP.jpg"
+      "http://i.imgur.com/IpSPLdP.jpg",
+      "http://i.imgur.com/TKveyZ8.jpg"
     ],
     "kc": [
       "http://i.imgur.com/lTYmCcg.jpg",
@@ -81,7 +86,8 @@
       "http://i.imgur.com/9dxR7IK.jpg",
       "http://i.imgur.com/yDQmYJH.png",
       "http://i.imgur.com/QeENHKc.jpg",
-      "http://i.imgur.com/SYQKsAq.jpg"
+      "http://i.imgur.com/SYQKsAq.jpg",
+      "http://i.imgur.com/x8J0gf7.jpg"
     ]
   },
   "8maki": {
@@ -107,7 +113,13 @@
     ]
   },
   "ide": {
+    "normal": [
+      "http://i.imgur.com/mZ7QjIT.jpg"
+    ]
   },
-  "tky": {
+  "takeya": {
+    "normal": [
+      "http://i.imgur.com/4RUMakt.jpg"
+    ]
   }
 }
