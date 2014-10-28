@@ -14,10 +14,10 @@ Kanmu YEAH!
 
 ```
 hubot 8maki - 8maki画像をランダムに返す
-hubot js - js画像をランダムに返す
+hubot sakai - sakai画像をランダムに返す
 hubot achiku - achiku画像をランダムに返す
 hubot moqada - moqada画像をランダムに返す
 hubot ide - ide画像をランダムに返す
-hubot tky - tky画像をランダムに返す
+hubot takeya - takeya画像をランダムに返す
 hubot [name] kc - [name]のクソコラ画像をランダムに返す
 ```

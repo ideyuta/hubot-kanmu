@@ -5,11 +5,11 @@
 #
 # Commands:
 #   hubot 8maki - 8maki画像をランダムに返す
-#   hubot js - js画像をランダムに返す
+#   hubot sakai - sakai画像をランダムに返す
 #   hubot achiku - achiku画像をランダムに返す
 #   hubot moqada - moqada画像をランダムに返す
 #   hubot ide - ide画像をランダムに返す
-#   hubot tky - tky画像をランダムに返す
+#   hubot takeya - takeya画像をランダムに返す
 #   hubot [name] kc - [name]のクソコラ画像をランダムに返す
 #
 # Author:
@@ -19,7 +19,7 @@ data = require '../data/data.json'
 
 module.exports = (robot) ->
 
-  robot.respond /(achiku|8maki|moqada|js|ide|tky)( kc)?$/i, (msg) ->
+  robot.respond /(achiku|8maki|moqada|sakai|ide|takeya)( kc)?$/i, (msg) ->
     name =  msg.match[1]
     images = if msg.match[2] then data[name].kc else data[name].normal
     if images?
