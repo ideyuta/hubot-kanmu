@@ -15,7 +15,7 @@
 # Author:
 #   ideyuta
 
-data = require '../data/data.json'
+DATA_URL = 'https://raw.githubusercontent.com/ideyuta/hubot-kanmu/master/src/data/data.json'
 
 module.exports = (robot) ->
 
@@ -24,12 +24,15 @@ module.exports = (robot) ->
   # 名前に応じてそいつの画像を返す
   ##
   robot.respond /(achiku|8maki|moqada|sakai|ide|takeya)( kc)?$/i, (msg) ->
-    name =  msg.match[1]
-    images = if msg.match[2] then data[name].kc else data[name].normal
-    if images?
-      msg.send "@#{name} #{msg.random images}"
-    else
-      msg.reply "画像ないから追加しろ"
+    msg.http(DATA_URL)
+      .get() (err, res, body) ->
+        data = JSON.parse body
+        name =  msg.match[1]
+        images = if msg.match[2] then data[name].kc else data[name].normal
+        if images?
+          msg.send "@#{name} #{msg.random images}"
+        else
+          msg.reply "画像ないから追加しろ"
 
   ##
   # @desc
