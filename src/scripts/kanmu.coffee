@@ -10,6 +10,10 @@
 #   hubot moqada - moqada画像をランダムに返す
 #   hubot ide - ide画像をランダムに返す
 #   hubot takeya - takeya画像をランダムに返す
+#   hubot koyama - koyama画像をランダムに返す
+#   hubot iruka - iruka画像をランダムに返す
+#   hubot hiroakis - hiroakis画像をランダムに返す
+#   hubot yuta - yuta画像をランダムに返す
 #   hubot [name] kc - [name]のクソコラ画像をランダムに返す
 #
 # Author:
@@ -23,7 +27,7 @@ module.exports = (robot) ->
   # @desc
   # 名前に応じてそいつの画像を返す
   ##
-  robot.respond /(achiku|8maki|moqada|sakai|ide|takeya)( kc)?$/i, (msg) ->
+  robot.respond /(achiku|8maki|moqada|sakai|ide|takeya|koyama|iruka|hiroakis|yuta)( kc)?$/i, (msg) ->
     msg.http(DATA_URL)
       .get() (err, res, body) ->
         data = JSON.parse body
