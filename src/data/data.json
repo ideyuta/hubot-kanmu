@@ -92,7 +92,8 @@
       "http://i.imgur.com/eaiz8zg.jpg",
       "http://i.imgur.com/Nztz67Y.jpg",
       "http://i.imgur.com/H1M5Fkv.jpg",
-      "http://i.imgur.com/zvITvle.jpg"
+      "http://i.imgur.com/zvITvle.jpg",
+      "https://i.imgur.com/DdycjTP.jpg"
     ],
     "kc": [
       "http://i.imgur.com/lTYmCcg.jpg",
@@ -162,7 +163,38 @@
   "takeya": {
     "normal": [
       "http://i.imgur.com/4RUMakt.jpg",
-      "http://i.imgur.com/IAcigRP.png"
+      "http://i.imgur.com/IAcigRP.png",
+      "https://i.imgur.com/pI1kF5J.jpg"
+    ]
+  },
+  "koyama": {
+    "normal": [
+      "https://i.imgur.com/T9YFS1T.jpg",
+      "https://i.imgur.com/imcHUbc.jpg"
+    ],
+    "kc": [
+      "https://i.imgur.com/9ah0V4z.jpg",
+      "https://i.imgur.com/MiFhMrz.jpg",
+      "https://i.imgur.com/x6cQmWr.jpg",
+      "https://i.imgur.com/IEQSiqA.jpg",
+      "https://i.imgur.com/o57lJg8.jpg",
+      "https://i.imgur.com/eJIWq20.jpg"
+    ]
+  },
+  "iruka": {
+    "normal": [
+      "https://i.imgur.com/639QOIt.jpg"
+    ]
+  },
+  "hiroakis": {
+    "normal": [
+      "https://i.imgur.com/85Dp4AR.jpg"
+    ]
+  },
+  "yuta": {
+    "normal": [
+      "https://i.imgur.com/wu9sGhE.jpg",
+      "https://i.imgur.com/5kQWKRp.jpg"
     ]
   }
 }
